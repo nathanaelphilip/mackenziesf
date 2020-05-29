@@ -1,0 +1,43 @@
+<wpml-config>
+    <admin-texts>
+        <key name="theme_mods_beckett">
+            <key name="beckett_logo" />
+            <key name="beckett_favicon" />
+            <key name="beckett_header_text" />
+            <key name="beckett_home">
+                <key name="beckett_recent_projects_title" />
+                <key name="beckett_recent_projects_summary" />
+                <key name="beckett_recent_projects_count" />
+                <key name="beckett_recent_posts_title" />
+                <key name="beckett_recent_posts_summary" />
+                <key name="beckett_recent_posts_image" />
+                <key name="beckett_recent_posts_count" />
+                <key name="beckett_testimonials_title" />
+                <key name="beckett_testimonials_summary" />
+                <key name="beckett_testimonials_image" />
+                <key name="beckett_testimonials_count" />
+                <key name="beckett_featured_title" />
+                <key name="beckett_featured_summary" />
+                <key name="beckett_featured_content_image" />
+            </key>
+            <key name="beckett_custom_css" />
+            <key name="beckett_accent_color" />
+            <key name="beckett_header_color" />
+            <key name="beckett_menu_color" />
+            <key name="beckett_menu_hover_color" />
+            <key name="beckett_menu_background_color" />
+            <key name="beckett_link_color" />
+            <key name="beckett_link_hover_color" />
+            <key name="beckett_footer_left" />
+            <key name="beckett_footer_right" />
+        </key>
+    </admin-texts>
+    <custom-types>
+        <custom-type translate="1">project</custom-type>
+        <custom-type translate="1">testimonial</custom-type>
+        <custom-type translate="1">slide</custom-type>
+    </custom-types>
+    <taxonomies>
+        <taxonomy translate="1">skill</taxonomy>
+    </taxonomies>
+</wpml-config>
