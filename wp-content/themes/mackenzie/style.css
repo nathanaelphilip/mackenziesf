@@ -504,3 +504,32 @@ header.main .inside{border: none; padding-bottom: 0 !important}
 
   #clients .entry-header{margin-top: 0px}
 }
+
+
+/* New Project */
+
+.project-template-default .entry-content {
+  margin-top: 0;
+}
+
+.project-template-default .site-main {
+  padding: 0 !important;
+}
+
+.project-template-default .main-inside {
+  max-width: 100%;
+}
+
+.type-project .wp-block-cover {
+  margin-bottom: 40px;
+}
+
+.type-project .entry-content h2,
+.type-project .entry-content h3,
+.type-project .entry-content h4,
+.type-project .entry-content p,
+.type-project .entry-content .wp-block-image {
+  max-width: 800px;
+  margin: 0 auto 10px auto;
+  width: 90%;
+}
