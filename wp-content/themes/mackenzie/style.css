@@ -524,6 +524,19 @@ header.main .inside{border: none; padding-bottom: 0 !important}
   margin-bottom: 40px;
 }
 
+.wp-block-cover h2, .wp-block-cover-image h2,
+.wp-block-cover h3, .wp-block-cover-image h3 {
+  font-size: 4.8rem;
+}
+
+.wp-block-cover, .wp-block-cover-image {
+  min-height: 600px;
+}
+
+.type-project .entry-content p {
+  line-height: 1.6;
+}
+
 .type-project .entry-content h2,
 .type-project .entry-content h3,
 .type-project .entry-content h4,
