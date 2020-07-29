@@ -30,3 +30,17 @@
 
     return $args;
   }, 20, 2 );
+
+  function mack_create_custom_image_size($sizes){
+    $custom_sizes = ['extra_large' => 'Extra Large'];
+
+    return array_merge( $sizes, $custom_sizes );
+  }
+
+
+  function mack_setup_theme() {
+    add_image_size( 'extra_large', 1800, 0, false );
+    add_filter('image_size_names_choose', 'mack_create_custom_image_size');
+  }
+
+  add_action( 'after_setup_theme', 'mack_setup_theme' );
