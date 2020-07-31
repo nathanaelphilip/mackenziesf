@@ -7,6 +7,7 @@
     wp_enqueue_style( $parent_style, get_template_directory_uri() . '/style.css' );
   }
 
+  set_theme_mod('beckett_recent_projects_count', 12);
 
   add_action('wp_enqueue_scripts', function () {
 

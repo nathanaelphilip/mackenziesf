@@ -146,6 +146,10 @@ body.home #projects-home header h2{
     text-transform: uppercase;
 }
 
+#featured-items .action .button {
+  padding: 10px 45px !important;
+}
+
 #featured-items .small{padding: 0 2.5% !important}
 #featured-items .small .inside{margin: 0}
 
@@ -583,4 +587,14 @@ header.main .inside{border: none; padding-bottom: 0 !important}
   display: flex;
   margin-right: 0;
   margin-left: 0;
+}
+
+
+/* Home Page Slides */
+.home #slideshow .slide .heading {
+  font-family: 'DIN Next W01', sans-serif;
+  font-size: 82px;
+  font-weight: 400 !important;
+  letter-spacing: 1px;
+  text-transform: uppercase;
 }

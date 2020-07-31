@@ -32,7 +32,9 @@ $featured_items = new WP_Query( $args );
 			<div id="featured-item-<?php echo $i; ?>" <?php post_class('small'); ?> >
 				<div class="inside">
 					<figure class="thumbnail">
-						<?php the_post_thumbnail("large", array('class' => '', 'alt' => ''.get_the_title().'', 'title' => ''.get_the_title().'')); ?>
+						<a href="<?php the_permalink() ?>" class="button">
+							<?php the_post_thumbnail("large", array('class' => '', 'alt' => ''.get_the_title().'', 'title' => ''.get_the_title().'')); ?>
+						</a>
 					</figure>
 					<h3><?php the_title(); ?></h3>
 					<h4><?php the_field('position') ?></h4>

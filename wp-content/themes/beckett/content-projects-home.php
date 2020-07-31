@@ -21,8 +21,8 @@
 			<?php				
 					$args = array(
 						'ignore_sticky_posts' 	=> 1,
-			    		'posts_per_page' 		=> $projects_count,
-			    		'post_type' 			=> array('project')
+			    	'posts_per_page' 		=> $projects_count,
+						'post_type' 			=> array('project')
 					);			
 
 				$projects = new WP_Query( $args ); ?>
