@@ -28,6 +28,11 @@ get_header(); ?>
 
 		<?php endwhile; // end of the loop. ?>
 	<?php endif; ?>
+      
+      <div>
+        <a href="<?= get_permalink(get_option('page_for_posts')) ?>">Return to blog</a>
+      </div>
+
 	</div>
 	<?php get_sidebar(); ?>
 	</div>
