@@ -609,3 +609,15 @@ header.main .inside{border: none; padding-bottom: 0 !important}
 .template-bio__image {
   margin-bottom: 15px;
 }
+
+
+/* Blog */
+.post-template-default.single-post .entry-title {
+  text-align: left !important;
+}
+
+.post-template-default.single-post .site-main {
+  padding-top: 80px !important;
+}
+
+#secondary {padding-top: 5px}
